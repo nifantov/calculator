@@ -1,0 +1,32 @@
+div {
+    border: 2px solid salmon;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  min-height: 500px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.container {
+    width: 400px;
+    margin: 80px auto;
+}
+.display {
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 500px;
+}
+
+.span2 {
+    grid-column: span 2;
+}
